@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Use test automation">
+    <test name="API regression">
+        <classes>
+            <class name="ManTests"></class>
+            <class name="PersonTests"></class>
+            <class name="WomanTests"></class>
+        </classes>
+
+    </test>
+</suite>
